@@ -127,7 +127,7 @@
                   <?php foreach ($messages as $message) : ?>
                   <li class="<?php echo ($message->sender === 'WT1 Nutzer') ? 'by-me' : 'by-other'; ?>">
                    <div class="chat-content">
-                    <div class="chat-meta"><?php echo $message->sender; ?></div>
+                    <div class="chat-meta"> WT1 Nutzer<?php echo $message->sender; ?></div>
                      <?php echo $message->msg; ?>
                    <div class="clearfix"></div>
                    </div>
